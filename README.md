@@ -50,4 +50,8 @@ qemu-system-x86_64 -fda bootloader.bin
 
 ## Funcionamento
 
-![Demonstração do Funcionamento]("./img/funcionamento.gif")
+<div align="center">
+<sup>Figura 1 - Demonstração do Funcionamento</sup>
+<img src="./img/funcionamento.gif">
+<sup>Fonte: material produzido pela autora (2025).</sup>
+</div>
