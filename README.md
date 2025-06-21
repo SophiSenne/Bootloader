@@ -35,6 +35,15 @@ O código fonte ([src/bootloader.asm](src/bootloader.asm)) é escrito em Assembl
 *   `user_input`: Buffer para armazenar a entrada do usuário.
 *   `output_buffer`: Buffer para armazenar a string combinada.
 
-## Assinatura de Boot
+## Como executar
 
-O bootloader possui a assinatura de boot `0xAA55` no final do arquivo.
+1. Compilar com NASM:
+
+```bash
+nasm -f bin bootloader.asm -o bootloader.bin
+```
+
+2. Testar com QEMU:
+```bash
+qemu-system-x86_64 -fda bootloader.bin
+```
