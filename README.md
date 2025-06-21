@@ -47,3 +47,7 @@ nasm -f bin bootloader.asm -o bootloader.bin
 ```bash
 qemu-system-x86_64 -fda bootloader.bin
 ```
+
+## Funcionamento
+
+![Demonstração do Funcionamento]("./img/funcionamento.gif")
